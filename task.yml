@@ -7,6 +7,12 @@ image_resource:
     repository: java
     tag: latest
 
+inputs:
+  - name: source-code
+
+outputs:
+  - name: build
+
 run:
   path: echo
   args: ["Hello, JAVA!"]
