@@ -1,10 +1,9 @@
- resources:
+resources:
 - name: source-code
   type: git
   source:
-    uri: https://github.com/jshingler/testConcourseCredhub.git
+    uri: https://github.com/jshingler/testConcourseCredhub
     branch: master
-
 
 jobs:
 - name: hello-world
